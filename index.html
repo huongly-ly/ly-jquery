@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm hiểu về Jquery</title>
+    <style>
+        body {
+            background-color: rgb(163, 248, 241);
+        }
+
+        table, th, td{
+            border: 1px solid black;
+        }
+
+        table {
+            margin-bottom: 100px;
+            width: 75%;
+            margin-left: 200px;
+        }
+
+        th {
+            background-color: blueviolet;
+            color: aliceblue;
+            text-transform: uppercase;
+        }
+        
+        tr:hover {
+            background-color: rgb(14, 13, 13);
+            color: #fff;
+        }
+
+        
+
+        #image, img{
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            text-align: center;
+            text-transform: capitalize;
+            color: rgb(18, 18, 19);
+            text-shadow: 2px 2px rgb(178, 180, 180);
+        }
+    
+        #main-right {
+            width: auto;
+            height: auto;
+            text-align: center;
+            margin-bottom: 100px;
+            
+        }
+
+        .coppyright a:hover {
+            color: rgba(0, 0, 0, 0.4); 
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="image">
+        <p><i style="font-size: 30px; margin-bottom: 50px;">Result jquery Quiz</i></p>
+        <img src="./img/jqueryQuizz.JPG" alt="Result jqueryQuiz">
+    </div>
+    <div class="clear">
+
+    </div>
+    <div>
+        <table>
+            <caption><b style="font-size: 20px;margin-top: 50px; margin-bottom: 20px; text-transform: uppercase">Jquery Question</b></caption>
+            
+                <thead>
+                    <th>Question</th>
+                    <th>Answer</th>              
+                </thead>
+
+                <tbody style="background-color: #fff;">
+                    <tr>
+                        <td>jQuery là thư viện dùng ở client hay server?</td>
+                        <td>jQuery là thư viện dùng ở client</td>
+                    </tr>
+                    <tr>
+                        <td>CDN là gì?
+                            Đưa ra tên của 3 CDN phổ biến có jQuery
+                            Lợi ích của CDN là gì?</td>
+                        <td>
+                            <p>
+                                <h2>3 CDN phổ biến :</h2>
+                                <p>
+                                    - CDN của Google. <br>
+                                    - CDN của Microsoft. <br>
+                                    - CDN của chính tác giả viết ra jQuery.
+                                </p>
+                            </p>
+                            <p>
+                                CDN viết tắt của Content Delivery Network là mạng lưới máy chủ lưu giữ bản sao của các nội dung tĩnh bên trong website và phân phối đến nhiều máy chủ PoP.
+                                <h2>Lợi ích của CDN: </h2>
+                                <p> <b style="font-size: 19px;">
+                                   - CDN nâng cao trải nghiệm người dùng, thuận lợi cho SEO:
+                                    </b> 
+                                      Với hình thức giao dịch dữ liệu qua hệ thống máy chủ, CDN mang đến những trải nghiệm tốt nhất cho người dùng khi truy cập website. 
+                                      Không chỉ giải quyết tình trạng “thắt cổ chai” giữa client và server, 
+                                      CDN còn tối ưu hóa băng thông, đẩy nhanh tốc độ truy cập và truyền tải dữ liệu.
+                                </p>
+                                <p> <b style="font-size: 19px;">
+                                    - Tiết kiệm:
+                                     </b> 
+                                     CDN giúp giảm tải băng thông và dung lượng lưu trữ cho máy chủ gốc, đồng thời, tiết kiệm chi phí so với việc mua thêm băng thông ở host.
+                                     Với mạng lưới máy chủ phân tán, CDN cho phép mở rộng phạm vi tiếp cận toàn cầu và tăng độ tin cậy lẫn thời gian phản hồi của website.
+                                    </p>
+                                <p> <b style="font-size: 19px;">
+                                    - Bảo mật:
+                                     </b> 
+                                     CDN hoàn toàn có khả năng ngăn chặn website của bạn khỏi các cuộc tấn công. Bởi vì cơ sở hạ tầng cốt lõi CDN lúc này được bảo vệ bởi Firewall. 
+                                     Hầu hết các CDN được xây dựng bằng kiến trúc phân tán. Do đó, nó có khả năng làm giảm thiểu mọi cuộc tấn công DDoS. Nhờ tính năng ẩn IP thật, 
+                                     CDN sẽ góp phần bảo mật địa chỉ IP khiến những kẻ tấn công không thể tìm được IP của bạn.
+                                </p>
+                            </p>
+                        </td>                     
+                    </tr>
+                    <tr>
+                        <td>jQuery có thay thế cho JavaScript được không?</td>
+                        <td><p>Sự khác biệt giữa jQuery và JavaScript là jQuery đơn giản và dễ dàng hơn nhưng JavaScript mạnh hơn <br>
+                                jQuery rất nhanh và có thể mở rộng. <br>
+                                jQuery cải thiện hiệu suất của một ứng dụng.<br>
+                               jQuery hay JavaScript sẽ tùy thuộc vào mục tiêu nghề nghiệp và chức năng cần có trong dự án của bạn.
+                        </p>
+                            <p>JavaScript là một công cụ mạnh và sẽ không thể nắm bắt trong vài ngày hoặc thậm chí vài tuần.
+                                Ngay cả các nhà phát triển JavaScript có kinh nghiệm vẫn thường bị bối rối bởi sự hoạt động của nó.</p>
+                            <p>Là người mới lập trình và phát triển web sẽ không thể làm được gì nhiều với các kỹ năng JavaScript vừa mới có được trong một vài tuần. 
+                               Nhưng nếu đã biết HTML và CSS thì jQuery có thể giúp bạn tạo ra các dự án ở một trình độ khác chỉ trong vài ngày.</p>
+                            <p>Học jQuery cũng sẽ giúp bạn hiểu được sức mạnh của JavaScript. Bạn sẽ có thể làm được nhiều việc phổ biến của một nhà phát triển JavaScript 
+                              nhưng bằng cách sử dụng với jQuery bạn cũng sẽ biết được mình có thể làm được bao nhiêu với JavaScript.</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>jQuery có phải thuộc tiêu chuẩn của W3C không?</td>
+                        <td>
+                            <p>
+                                <b>W3C (World Wide Web Consutirum)</b> : là tiêu chuẩn thiết kế website hay nói cách khác là một thước đo giúp đánh giá mức độ hoàn thiện của website. <br>
+                                   Các ngôn ngữ tiêu chuẩn website được W3C xây dựng bao gồm: HTML, XHTML, VoiceXML, SSML, CGI, SVG, XMLSchema, XQuery, WSDL, P3P, RDF,...  <br>
+                                   <i style="color: red;">==> jQuery không là tiêu chuẩn của W3C</i>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Khác biệt giữa $(this) và (this) là gì?</td>
+                        <td> <p>
+                            (this) là đối tượng DOM, trong khi đó $(this)là trình bao bọc jQuery giống nhau.
+                            Khi sử dụng this, bạn có thể gọi các phương thức DOM trên đó, nhưng không gọi các phương thức jQuery. 
+                            Khi sử dụng $(this), bạn có thể gọi các phương thức jQuery trên đó, nhưng không gọi các phương thức DOM.
+                            </p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Khác biệt giữa prop và attr</td>
+                        <td><p>
+                            .attr() thay đổi thuộc tính cho thẻ HTML đó. <br>
+                            .prop() thay đổi các thuộc tính cho thẻ HTML đó theo cây DOM.
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Viết đoạn code thay thế $(document).ready() bằng javascript</td>
+                        <td>
+                            <p>Code jQuery : </p>
+                            <pre>
+                                <code>
+                                    $(document).ready(function(){
+    
+                                        // jQuery methods go here...
+                                      
+                                      });
+                                </code>
+                            </pre>
+
+                            <p>Thay thế bằng javascript : </p>
+                            <pre>
+                                <code>
+                                    document.addEventListener("DOMContentLoaded", function() {
+                                        // code
+                                  });
+                          
+                              
+                                </code>
+                            </pre>
+                            
+                        </td>
+                    </tr>
+                </tbody>
+                      
+        </table>
+    </div>
+    <div id="main-right">
+        <p class="coppyright" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Powered by 
+            <a href="https://www.linkedin.com/in/h%C6%B0%C6%A1ng-l%C3%BD-bb734621a/">LyNH</a> 
+        </p>
+    </div>
+</body>
+</html>
